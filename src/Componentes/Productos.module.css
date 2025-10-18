@@ -1,0 +1,124 @@
+.cajonProductos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 30px;
+}
+
+.cartaproducto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: darkslategrey;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+    width: 300px;
+    height: auto;
+    text-align: center;
+
+}
+
+.cartaproducto:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+h2{
+    text-decoration: underline;
+}
+
+.contenedorImage{
+    position: relative;
+    width: 100%;
+    height: 280px;
+    background: darkslategrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+}
+
+.imgProducto{
+    width: 200px;
+    height: 200px;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    object-fit: cover;
+    border-radius: 16px;
+    margin: 5%;
+    transition: transform 0.3s ease;
+}
+
+
+
+.descripcionProducto{
+
+    font-family: Verdana;
+    font-size: 15px;
+    color: rgb(245, 245, 245);
+    font-weight: bold;
+    margin: 10px;
+    line-height: 1.5;
+    flex-grow: 1;
+
+
+}
+
+.precioProducto{
+
+    font-weight: bold;
+
+}
+
+.botonAgregar{
+
+    width: auto;
+    display: inline-block;
+    padding: 8px 15px;
+    margin-bottom: 5%;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    transition: all 0.3s ease;
+
+
+}
+
+.detalleProducto {
+    width: auto;
+    display: inline-block;
+    padding: 8px 15px;
+    margin-bottom: 10%;
+    text-decoration: none;
+    background-color: rgba(153, 131, 131, 0.8);
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    transition: all 0.3s ease;
+
+}
+
+.detalleProducto a {
+    color: black;
+}
+
+.detalleProducto:hover {
+    color: rgb(18, 201, 161);
+    text-decoration: underline;
+    background-color: #fff;
+    border-radius: 10px;
+
+}
